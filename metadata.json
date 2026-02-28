@@ -1,0 +1,8 @@
+{
+  "name": "TeacherTeacher",
+  "description": "A high-performance teacher training platform using Gemini Live API for real-time computer vision analysis, engagement tracking, and bio-metric vital simulation.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
