@@ -37,12 +37,12 @@ It also **simulates student interactions**, generating realistic student questio
 TeacherTeacher connects to the **Gemini 2.5 Flash Native Audio** model via the Live API, streaming both audio and video frames in real-time:
 
 ```
-┌──────────────┐     Audio PCM + Video Frames     ┌──────────────────┐
-│              │ ──────────────────────────────────▶│                  │
+┌──────────────┐     Audio PCM + Video Frames      ┌──────────────────┐
+│              │ ────────────────────────────────▶│                  │
 │   Educator   │                                   │   Gemini Live    │
-│   Webcam +   │◀────────────────────────────────── │   API (2.5       │
-│   Microphone │   Coaching Feedback + Student      │   Flash)         │
-│              │   Simulations via Tool Calls       │                  │
+│   Webcam +   │◀───────────────────────────────- │   API (2.5       │
+│   Microphone │   Coaching Feedback + Student     │   Flash)         │
+│              │   Simulations via Tool Calls      │                  │
 └──────────────┘                                   └──────────────────┘
 ```
 
